@@ -18,13 +18,11 @@ programa
 		leia(h)
 		
 		se (h > 0 e b > 0){
-			escreva("OK !!")
 		} 
-			senao 
-				escreva("Desculpe começe de novo e insira valores maiores que zero...")
-		limpa()
+		senao 
+				escreva("Desculpe, começe de novo e insira valores maiores que zero...")
 		area= (b * h)/2
-		escreva("O valor da área do triângulo é: " + area + " cm²")
+		escreva("O valor da área do triângulo é: " + area + " cm²\n")
 	}
 	
 }
@@ -33,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 401; 
+ * @POSICAO-CURSOR = 485; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
